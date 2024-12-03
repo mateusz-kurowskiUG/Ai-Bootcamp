@@ -25,6 +25,7 @@ tensor_a = torch.from_numpy(mx_a)
 tensor_b = torch.from_numpy(mx_b)
 
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 start = time.time()
 torch_res = torch.matmul(tensor_a, tensor_b)
 end = time.time()
