@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "z2"
+version = "0.1.0"
+description = ""
+authors = ["Mateusz Kurowski <m.kurowski.023@studms.ug.edu.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.3"
+scikit-learn = "^1.5.2"
+rich = "^13.9.4"
+polars = "^1.15.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
