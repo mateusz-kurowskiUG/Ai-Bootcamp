@@ -40,7 +40,7 @@ def preprocess():
 
 
 if __name__ == "__main__":
-    # preprocess()
+    preprocess()
     df = pl.read_csv("df_preproc.csv")
     df_matrix = df.to_numpy()
     scaler = StandardScaler()
